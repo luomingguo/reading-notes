@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/reading-notes/",
+  base: '/reading-notes/',
   title: "Raading Notes for Math & EECS",
   description: "Reading Notes for Mathematics & EECS from MIT, Stanford and so on",
   themeConfig: {
