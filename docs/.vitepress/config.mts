@@ -75,11 +75,12 @@ export default defineConfig({
           text: '计算机系统',
           collapsed: true,
           items: [
-            {text: "计算机系统工程"},
-            {text: "移动和传感计算"},
+            {text: "计算机系统工程", link: "/computer_sys_eng"},
             {text: "操作系统工程"},
             {text: "计算机网络"},
-            {text: "数据库系统"},
+            {text: "移动和传感计算"},
+            {text: "计算机系统与社会"},
+            {text: "数据库系统", link: "/database_systems"},
             {text: "分布式系统"},
             {text: "计算机系统原理"},
           ]
@@ -137,7 +138,57 @@ export default defineConfig({
             { text: "lec22 图优化", link: "./lec22" }
           ]
         },
-      ]
+      ],
+      '/computer_sys_eng/': [
+        {
+          text: '计算机系统工程',
+          collapsed: false,
+          link: "./index",
+          items: [
+            { text: "lec01 复杂度，模块化，抽象思维", link: "./lec1" },
+            { text: "lec02 命名系统", link: "./lec2" },
+            { text: "lec03 虚拟内存", link: "./lec3" },
+            { text: "lec04 有界缓冲区，锁", link: "./lec4" },
+            { text: "lec05 线程", link: "./lec5" },
+            { text: "lec06 虚拟机", link: "./lec6" },
+            { text: "lec07 性能（存储）", link: "./lec7" },
+            { text: "lec08 计算机网络介绍", link: "./lec8" },
+            { text: "lec09 路由", link: "./lec9" },
+            { text: "lec10 BGP", link: "./lec10" },
+            { text: "lec11 TCP", link: "./lec11" },
+            { text: "lec13 网络资源管理", link: "./lec13" },
+            { text: "lec12 应用层", link: "./lec12" },
+            { text: "lec14 数据中心和云", link: "./lec14" },
+            { text: "lec15 可靠性", link: "./lec15" },
+            { text: "lec16 原子性、隔离性、事务", link: "./lec16" },
+            { text: "lec17 logging", link: "./lec17" },
+            { text: "lec18 隔离性", link: "./lec18" },
+            { text: "lec19 分布式事务", link: "./lec19" },
+            { text: "lec20 复制", link: "./lec20" },
+            { text: "lec21 身份认证", link: "./lec21" },
+            { text: "lec22 低级别攻击", link: "./lec22" },
+            { text: "lec23 安全通道", link: "./lec23" },
+            { text: "lec24 ToR", link: "./lec24" },
+            { text: "lec25 网络攻击", link: "./lec25" },
+          ]
+        },
+      ],
+      '/database_systems/': [
+        {
+          text: '数据库系统',
+          collapsed: false,
+          link: "./index",
+          items: [
+            { text: "lec01 关系模型 & SQL(Part I)", link: "./lec1" },
+            { text: "lec02 SQL(Part II)", link: "./lec2" },
+            { text: "lec03 Schema设计", link: "./lec3" },
+            { text: "lec04a 数据库存储", link: "./lec4a" },
+            { text: "lec04b 数据库内部", link: "./lec4b" },
+            { text: "lec12 故障恢复(Part I)", link: "./lec12" },
+            { text: "lec13 故障恢复(Part II)", link: "./lec13" },
+          ]
+        }
+      ],
     },
 
     socialLinks: [
