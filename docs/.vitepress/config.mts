@@ -39,7 +39,7 @@ export default defineConfig({
       '/': [
         {
           text: '编程与软件工程',
-          collapsed: false,
+          collapsed: true,
           items: [
             { text: "编程基础(Python版)", link: "/fundamentals_of_programming"},
             { text: "软件构造基础", link: "/element_of_software_construction"},
@@ -54,7 +54,7 @@ export default defineConfig({
           collapsed: true,
           items: [
             {text: "计算机数学"},
-            {text: "算法导论"},
+            {text: "算法导论", link: "/introduction_to_algorithms"},
             {text: "算法设计和分析"},
             {text: "可计算性和复杂度理论"},
             {text: "分布式算法"},
@@ -103,6 +103,19 @@ export default defineConfig({
           collapsed: true,
           items: [
             {text: "安全与加密应用"}
+          ]
+        },
+      ],
+      '/fundamentals_of_programming/': [
+        {
+          text: '软件性能工程',
+          collapsed: false,
+          link: "./index",
+          items: [
+            { text: "lec1 环境模型", link: "./lec1"},
+            { text: "lec2 函数的乐趣", link: "./lec2" },
+            { text: "lec3 例子分析：洪流", link: "./lec3" },
+            { text: "lec4 图搜索", link: "./lec4" },
           ]
         },
       ],
@@ -182,10 +195,52 @@ export default defineConfig({
             { text: "lec01 关系模型 & SQL(Part I)", link: "./lec1" },
             { text: "lec02 SQL(Part II)", link: "./lec2" },
             { text: "lec03 Schema设计", link: "./lec3" },
-            { text: "lec04a 数据库存储", link: "./lec4a" },
-            { text: "lec04b 数据库内部", link: "./lec4b" },
+            { text: "lec04 数据库的内部架构", link: "./lec4" },
+            { text: "lec05 数据库操作和查询处理", link: "./lec5" },
+            { text: "lec06 索引和访问方法", link: "./lec6" },
+            { text: "lec07 Join算法", link: "./lec7" },
+            { text: "lec08 查询优化", link: "./lec8" },
+            { text: "lec09 分析型数据库架构", link: "./lec9" },
+            { text: "lec10 事务与加锁", link: "./lec10" },
+            { text: "lec11 乐观并发控制与快照隔离", link: "./lec11" },
             { text: "lec12 故障恢复(Part I)", link: "./lec12" },
             { text: "lec13 故障恢复(Part II)", link: "./lec13" },
+            { text: "lec14 高级基数估计", link: "./lec14" },
+            { text: "lec15 并行数据库", link: "./lec15" },
+            { text: "lec16 分布式事务", link: "./lec16" },
+            { text: "lec17 最终一致性", link: "./lec17" },
+            { text: "lec18 高性能事务", link: "./lec18" },
+            { text: "lec19 集群计算(Spark)", link: "./lec19" },
+            { text: "lec20 SnowFlake", link: "./lec20" }
+          ]
+          
+        }
+      ],
+      '/introduction_to_algorithms/': [
+        {
+          text: '算法导论',
+          collapsed: false,
+          link: "./index",
+          items: [
+            { text: "lec01 介绍", link: "./lec1" },
+            { text: "lec02 数据结构", link: "./lec2" },
+            { text: "lec03 排序", link: "./lec3" },
+            { text: "lec04 哈希", link: "./lec4" },
+            { text: "lec05 线性排序", link: "./lec5" },
+            { text: "lec06 二叉树 Part 1", link: "./lec6" },
+            { text: "lec07 二叉树，AVL树 Part 2", link: "./lec7" },
+            { text: "lec08 二叉堆", link: "./lec8" },
+            { text: "lec09 广度优先搜索", link: "./lec9" },
+            { text: "lec10 深度优先搜索", link: "./lec10" },
+            { text: "lec11 最短路径问题", link: "./lec11" },
+            { text: "lec12 Bellman-Ford算法", link: "./lec12" },
+            { text: "lec13 Dijkstra’s Algorithm算法", link: "./lec13" },
+            { text: "lec14 Johnson’s Algorithm算法", link: "./lec14" },
+            { text: "lec15 动态规划, Part 1: 递归算法", link: "./lec15" },
+            { text: "lec16 动态规划, Part 2: 子问题", link: "./lec16" },
+            { text: "lec17 动态规划, Part 3: APSP, Parens, Piano", link: "./lec17" },
+            { text: "lec18 动态规划, Part 4: Pseudopolynomials", link: "./lec18" },
+            { text: "lec19 复杂度", link: "./lec19" },
           ]
         }
       ],

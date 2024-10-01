@@ -16,8 +16,8 @@ title: Software Engineer and Programming
 
 # 编程&软件工程课程表
 
-- [编程基础(Python版)](../element_of_software_construction/index.md)
-- [软件构造基础](../fundamentals_of_programming/index.md)
+- [编程基础(Python版)](../fundamentals_of_programming/index.md)
+- [软件构造基础](../element_of_software_construction/index.md)
 - [软件设计](../software_design/index.md)
 - [软件性能工程](../software_performance_engineer/index.md)
 - [多核编程](../multicore_programming/index.md)
