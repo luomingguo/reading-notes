@@ -4,22 +4,24 @@ layout: home
 
 hero:
   name: "Raading Notes for Math & EECS"
-  text: "Reading Notes for Mathematics & EECS from MIT, Stanford and so on"
-  tagline: My great project tagline
+  text: 
+  tagline: Welcome to join us!
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Open courses
+      link: /teaching/index
+      # link: /packages/teaching/index
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: reading notes
+      link: /notes/index
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Reading Note Home
+    details: Reading Notes for Mathematics & EECS from MIT, Stanford and so on
+  - title: Open Course Warehose
+    details: Study together
+  - title: Team
+    details: team member
+    link: "/team"
 ---
 

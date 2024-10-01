@@ -6,3 +6,5 @@ cache
 .cache
 .temp
 *.local
+
+*__pycache__
