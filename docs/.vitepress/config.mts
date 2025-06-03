@@ -1,7 +1,4 @@
 import { defineConfig } from 'vitepress'
-const config_sw_perfrom = require('../packages/sw_eng/software_performance_engineer/config.js');
-
-console.log("config_sw_perfrom = ", config_sw_perfrom)
 // https://vitepress.dev/reference/site-config
 
 export default defineConfig({
@@ -15,6 +12,13 @@ export default defineConfig({
   rewrites :{
     "packages/:pkg/:subject/(.*)": ":subject/(.*)",
     "packages/:subject/(.*)": ":subject/(.*)"
+  },
+  markdown: {
+    math: true,
+    lineNumbers: true,
+    image: {
+      lazyLoading: true
+    }
   },
   lastUpdated: true,
   themeConfig: {

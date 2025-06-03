@@ -5,7 +5,7 @@ export default {
       text: '课堂目录',
       collapsed: false,
       children: [
-        '/database_systems',
+        '/introduction_to_algrithms',
         // 其他子目录页面
       ],
     
