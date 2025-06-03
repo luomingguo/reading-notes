@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: 公开课
-      link: /teaching/index
+      link: /teaching/index_zh
     - theme: alt
       text: 读书笔记
-      link: /notes/index
+      link: /notes/index_zh
 
 features:
   - title: 读书笔记

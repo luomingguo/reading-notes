@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Raading Notes for Math & EECS"
+  name: "Reading Notes for Math & EECS"
   text: 
   tagline: Welcome to join us!
   actions:

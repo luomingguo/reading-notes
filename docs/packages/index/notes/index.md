@@ -1,6 +1,6 @@
 ---
-title: Ron的计算机读书笔记
-description: Ron的计算机读书笔记
+title: Ron's CS Reading Notes
+description: Ron's CS Reading Notes
 head:
   - - meta
     - name: description
@@ -8,26 +8,26 @@ head:
 layout: home
 
 hero:
-  name: Ron的计算机读书笔记
-  tagline: 来源MIT OCW
+  name: Ron's CS Reading Notes
+  tagline: from MIT OCW
   actions:
     - theme: brand
-      text: 编程和软件工程
+      text: Programming and Software Engineer
       link: /sw_eng/index
     - theme: alt
-      text: 编程语言
+      text: Programming Language
       link: /programming_language/index
     - theme: alt
-      text: 理论计算机
+      text: Theoretical Computer Science
       link: /tcs/index
     - theme: alt
-      text: 计算机架构
+      text: Computer Architechure
       link: /computer_arch/index
     - theme: alt
-      text: 计算机系统
+      text: Computer System
       link: /computer_sys/index
     - theme: alt
-      text: 计算机安全
+      text: Computer Security
       link: /security/index
 
 # sidebar: true
