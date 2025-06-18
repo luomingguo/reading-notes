@@ -58,14 +58,7 @@ aside: true
 
 - Lec 1: [环境模型](./lec1.md)
 - Lec 2: [有趣的函数](./lec2.md)
-- Lec 3: [Python一些特性和调试方法](./lec3.md)
-- Lec 4: [图搜索](./lec4.md)
-- Lec 5: [递归](./lec5.md)
-- Lec 6: [递归和迭代器](./lec6.md)
-- Lec 7: [回溯](./lec7.md)
-- Lec 8: [自定义类型](./lec8.md)
-- Lec 9: [继承](./lec9.md)
-- Lec 10: [函数式编程](./lec10.md)
+
 
 
 ## 实验

@@ -21,4 +21,4 @@ title: Software Engineer and Programming
 - [软件设计](../software_design/index.md)
 - [软件性能工程](../software_performance_engineer/index.md)
 - [多核编程](../multicore_programming/index.md)
-- [算法工程](../multicore_programming/algorithm_engineer/index.md)
+- [算法工程](../algorithm_engineer/index.md)

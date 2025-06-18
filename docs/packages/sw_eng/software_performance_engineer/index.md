@@ -14,8 +14,8 @@ outline: 2
 
 这门课涵盖与软件性能工程相关的各种主题。
 ## 前置学习内容
-- [软件构造基础](../element_of_software_construction/element_of_software_construction.md)
-- [编程基础](../fundamentals_of_programming/fundamentals_of_programming.md)
+- [软件构造基础](../element_of_software_construction/index.md)
+- [编程基础](../fundamentals_of_programming/index.md)
 
 ## 课表
 ## 主题
@@ -49,7 +49,7 @@ outline: 2
 
 # Lec 2 Bentley 程序优化的法则
 
-![image-20240928152111113](http://198.46.215.27:49153/i/66f7ae6be15b3.png)
+![image-20240928152111113](http://14.103.135.111:49153/i/66f7ae6be15b3.png)
 
 ## 总览
 

@@ -31,16 +31,16 @@ Permutation Sort，暴力解法
 
 - **检查排序：** 对于每一个排列，检查是否已排序的时间复杂度为 Θ(n)。
 
-- **示例：** 对于数组 `[2, 3, 1]`，所有的排列有： [2, 3, 1] → {[1, 2, 3], [1, 3, 2], [2, 1, 3], [2, 3, 1], [3, 1, 2], [3, 2, 1]}
+- **示例：** 对于数组 `[2, 3, 1]`，所有的排列有： [2, 3, 1] → \{[1, 2, 3], [1, 3, 2], [2, 1, 3], [2, 3, 1], [3, 1, 2], [3, 2, 1]\}
 
-  ```python
-  def permutation_sort(A):
-      '''对 A 进行排序'''
-      for B in permutations(A): # O(n!)
-          if is_sorted(B): # O(n)
-              return B # O(1)
-  
-  ```
+```python
+def permutation_sort(A):
+    '''对 A 进行排序'''
+    for B in permutations(A): # O(n!)
+        if is_sorted(B): # O(n)
+            return B # O(1)
+
+```
 
 - **排列排序分析：**
 
