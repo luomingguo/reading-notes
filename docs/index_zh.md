@@ -3,24 +3,19 @@
 layout: home
 
 hero:
-  name: "Ron读书会"
+  name: "傲慢与偏见"
   text: 
-  tagline: 这不是一个人的舞台
+  tagline: 酒醒了，捋一下
   actions:
     - theme: brand
-      text: 公开课
-      link: /teaching/index_zh
+      text: 事情的经过
+      link: /notes/story
+    - theme: brand
+      text: 原谅我
+      link: /notes/forgive
     - theme: alt
-      text: 读书笔记
-      link: /notes/index_zh
+      text: 事后情况说明
+      link: /notes/reason
 
-features:
-  - title: 读书笔记
-    details: 名校CS课程笔记，包括计算机和数学等内容
-  - title: Ron的公开课
-    details: 将优秀的国外公开课用中文讲解，为广大CS从业群体提供一个学习交流的平台
-  - title: 团队成员
-    details: 如果你擅长某些公开课，愿意分享的话请加入我们吧
-    link: "/team"
 ---
 
